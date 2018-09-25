@@ -79,7 +79,7 @@ plugins:
 favicon: /assets/images/author.jpeg
 
 # Set default keywords (Use a comma to separate)
-keywords: "Jekyll, NexT, simpleyyt, yitao"
+keywords: "Armv8, Android, Machine Learning, Data Analysis"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -381,7 +381,7 @@ baidu_analytics:
 
 # Disqus
 disqus:
-  enable: true
+  enable: false
   shortname: simpleyyt
   count: true
   # hide comments (visitors need to click to load the comments)
