@@ -28,8 +28,7 @@ $jekyll-config-map : {{ config_map }};
 @import "_mixins/custom";
 
 // syntax
-
-@import url(syntax.css);
+//@import url(syntax.css);
 
 
 // Common Layer
