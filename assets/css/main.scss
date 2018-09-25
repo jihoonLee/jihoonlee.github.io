@@ -3,7 +3,6 @@
 // CSS Style Guide: http://codeguide.co/#css
 
 
-
 $scheme    : '{{ site.scheme | default: Muse }}';
 $variables : base $scheme custom;
 $mixins    : base $scheme custom;
@@ -28,6 +27,9 @@ $jekyll-config-map : {{ config_map }};
 @import "_mixins/{{ site.scheme | default: Muse }}";
 @import "_mixins/custom";
 
+// syntax
+
+@import url(syntax.css);
 
 
 // Common Layer
